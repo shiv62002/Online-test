@@ -1,10 +1,32 @@
-This project simulates an online testing system. As part of the code, an exam generator is programmed to create different types of questions 
-(true/false, multiple choice, and fill-in-blank questions). Each type of question is organized within a different class using hashmaps and inheritance 
-relationships. The individual classes also keep track of individual students who took the exams, the performance of each student on the exam, and the performance 
-of the class as a whole. Last a command line interpreter is utilized to output a student’s name, exam, answers. 
+# Online Exam & Testing System Simulator
 
-The code in this project enables me to exhibit my knowledge and understading of OOP, serialization, interfaces, polymorphism, and hash maps. The code also enables
-me to showcase my ability to develop a simple a command line interpreter to showcase basic functionalities of a system. Overall, this project enables me to 
-highlight my proficiency in using java to develop a complex program.
+## Project Description
+This project simulates an online testing system by generating and managing exams composed of multiple question types, including true/false, multiple choice, and fill-in-the-blank questions. Each question type is implemented as a separate class and organized using inheritance and hash maps to store and retrieve question data efficiently. The system tracks individual student performance, evaluates each exam, and computes class-wide statistics. A command-line interpreter is used to interact with the system and display student names, exams taken, and submitted answers.
 
+## How It Works
+- A question generator creates different question types and stores them using **hash maps**.
+- **Inheritance and polymorphism** allow all question types to share a common structure while supporting unique behaviors.
+- **Serialization** is used to store and retrieve exam and student data.
+- The testing system:
+  - Builds and administers exams
+  - Records student responses
+  - Grades completed exams
+  - Calculates per-student and class-level performance metrics
+- A **command-line interface (CLI)** outputs a student’s name, exam information, and answers for review.
 
+## Skills Demonstrated
+- Object-oriented programming in Java
+- Inheritance, interfaces, and polymorphism
+- Hash map usage for data storage and retrieval
+- Serialization for persistent data handling
+- CLI development for user interaction
+- Class design and separation of concerns
+
+## Key Takeaways
+This project highlights my ability to:
+- Design an extensible OOP architecture
+- Implement multiple question types using inheritance and interfaces
+- Serialize and deserialize complex objects
+- Manage large sets of exam and student data using hash maps
+- Develop a command-line interpreter to simulate basic system functionality
+- Apply Java to build a structured, maintainable, and scalable application
